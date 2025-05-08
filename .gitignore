@@ -1,0 +1,21 @@
+# Dotenv file
+**/.env*.local
+**/.env
+
+# System backups
+backup/
+
+# Dependencies
+node_modules
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Misc
+**/.DS_Store
+**/*.log*
+**/.*-error.log
